@@ -1,0 +1,94 @@
+    body{
+        color: #767676;
+    }
+    
+    h1, h2, h3, h4, h5, h6{
+        color: #000000c4;
+    }
+
+    footer h4{
+        color: white;
+    }
+
+    .brand{
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .card-footer {
+    background: transparent;
+    border-top: 0px;
+    }
+
+    .hero-image-presentation {
+        background: url('../images/danse-emotion-association.jpg');
+    }
+    .hero-image-contact {
+        background: url('../images/danse-emotion-contact.jpg');
+    }
+
+    .hero-image-evenements {
+        background: url('../images/danse-emotion-evenements.jpg');
+    }
+
+  .hero-image {
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+     display: flex;
+    align-items: center; 
+   
+  }
+  .hero-image h1 {
+    color:white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .hero-image h2 {
+    color:white;
+    font-size: 1rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  @media (min-width: 768px) { 
+        .hero-image h1 {
+            font-size: 4rem;
+        }
+
+        .hero-image h2 {
+            font-size: 2rem;
+        }
+    }
+
+/* Small devices (landscape phones, 576px and up)*/
+/*@media (min-width: 576px) {  
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+/*@media (min-width: 768px) { 
+    html {
+        font-size: 1.4rem;
+      }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+/*@media (min-width: 992px) { 
+    html {
+        font-size: 1.6rem;
+    } 
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) { 
+    html {
+        font-size: 1.6rem;
+    } 
+}*/
